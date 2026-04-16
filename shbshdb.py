@@ -1,12 +1,8 @@
-my_set={1,2,3,3,4,4,4,4}
-print("Set :",my_set)
-my_set.add(5)
-print("Set after adding 5 :",my_set)
-set1=my_set
-set2={4,5,6,7}
-print("\nSet1 : ",set1)
-print("Set2 : ",set2)
-print("Difference")
-print(set1.difference(set2))
-print("Symmetric Difference")
-print(set1.symmetric_difference(set2))
+setc1={"group1","group2","group3","group4","group5"}
+setc2={"group6","group7","group8","group9","group10"}
+print("Original set1:")
+print(setc1)
+print(setc2)
+setc=setc1.union(setc2)
+print("\nUnion of above sets:")
+print(setc)
